@@ -18,7 +18,7 @@ public class ResourceStorageTest {
     @BeforeClass
     public static void setUp() throws Exception {
         mgr = ResourceManager.create()
-                .safeCode("1045ce61c8ad4b05ac06c283f4bed95b")
+                .safeCode("")
                 .container("test")
                 .build();
     }
